@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 1400px;
+    height: auto;
+}
+
+.header {
+    padding-right: 16px;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+}
+
+.Start {
+    padding-left: 16px;
+    width: 169px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: center;
+    align-items: center;
+}
+
+#logo {
+    padding-right: 45px
+}
+
+.Start a {
+    position: center;
+    font-size: 20px;
+    position: center;
+}
+
+.Center {
+    width: 728px;
+    height: 32px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+#searchBox {
+    width: 575px;
+    height: 32px;
+    font-size: 16px;
+    background: transparent;
+
+}
+
+#btn {
+    background: transparent;
+
+}
+
+.End {
+    padding-right: 16px;
+    width: 249.3px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+#Create-Vid {
+    width: 24px;
+    height: 24px;
+}
+
+#Apps {
+    width: 24px;
+    height: 24px;
+}
+
+#setting {
+    width: 24px;
+    height: 16px;
+}
+
+.SignInArea {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 105.3px;
+    height: 40px;
+    background: transparent;
+
+}
+
+#SignIn {
+    padding-left: 10px;
+    width: 24px;
+}
+
+#S-IN {
+    text-decoration: none;
+    font-size: 14px;
+    padding-right: 10px;
+    color: blue;
+}
+
+.screen {
+    max-width: 1400px;
+    margin: auto;
+    position: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: #eee;
+
+
+}
+
+.Content {
+    max-width: 1200px;
+    top: 60px;
+    margin: auto;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}
+
+.primary {
+    margin-right: 20px;
+}
+
+.secondary {
+    margin-top: 2px;
+    font-size: 14px;
+
+}
+
+.secondary a {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.secondary img {
+    cursor: pointer;
+
+}
+
+.Title {
+    font-size: 18px;
+    width: 286.73px;
+    height: 21px;
+    display: inline;
+}
